@@ -20,8 +20,14 @@
     <!-- script -->
     <script>
       let nouns;
-      const sourceText = `The first of these touches conveyed that the written statement took up the tale at a point after it had, in a manner, begun. The fact to be in possession of was therefore that his old friend, the youngest of several daughters of a poor country parson, had, at the age of twenty, on taking service for the first time in the schoolroom, come up to London, in trepidation, to answer in person an advertisement that had already placed her in brief correspondence with the advertiser.`;
-      const wordOffset = 7;
+      const sourceText = `Yu-Gi-Oh! MASTER DUEL was incredibly well-received at launch and many people have downloaded and played the game since launch – was this anticipated?
+
+We were definitely confident in the game’s quality and that it would be well received. The number of downloads has exceeded our expectations. We’ve seen the game be introduced to new audiences by so many people, especially influencers via social media, and it seems even people who were initially not familiar with Yu-Gi-Oh! have been playing and enjoying the game.
+
+Team Battle was recently added to Yu-Gi-Oh! MASTER DUEL, is there a reason Team Battle was added? Are there any other game modes you intend to add in the future?
+
+We could say that Yu-Gi-Oh! MASTER DUEL and the Yu-Gi-Oh! TRADING CARD GAME (Yu-Gi-Oh! TCG), the physical card game, are differentiated because users can play Duels with others from all over the world anytime, anywhere, but we want to differentiate them even more. One of the elements we have added is “Team Battle”. We are considering having “Team Battle” events in the future.`;
+      const wordOffset = 5;
       function generateNewText(text) {
         let splitText = text.split(" ");
         let newText = "";
